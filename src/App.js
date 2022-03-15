@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import styled, {css} from "styled-components"
+
+
+const Square = styled.div`
+  width: 100px;
+  
+  height: 100px;
+  border: 10px solid red;
+  background-color: black;
+  
+  ${({cssIndex}) => cssIndex  && css` 
+     width: 200px;
+  `}
+
+`
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id='wrapper'>
+      <Square cssIndex={true}>1</Square>
+      <Square isBlack={true}>2</Square>
+      <Square >3</Square>
     </div>
   );
 }
