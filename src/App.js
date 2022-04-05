@@ -8,7 +8,7 @@ const Head = styled.div`
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: pink;
+  background-color: black;
   border: 2px solid black;
   border-radius: 100%;
 `;
@@ -19,7 +19,7 @@ const Eye = styled.div`
   left: 80px;
   width: 40px;
   height: 40px;
-  background-color: pink;
+  background-color: black;
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
