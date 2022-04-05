@@ -5,6 +5,7 @@ import { useState } from "react";
 // template string``
 // string: "" ''
 const Head = styled.div`
+margin: 100px auto;
   position: relative;
   width: 300px;
   height: 300px;
