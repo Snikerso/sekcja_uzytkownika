@@ -5,12 +5,12 @@ import { useState } from "react";
 // template string``
 // string: "" ''
 const Head = styled.div`
-  margin: 100px auto;
+margin: 100px auto;
   position: relative;
-  width: 300px;
-  height: 300px;
-  background-color: pink;
-  border: 10px solid black;
+  width: 800px;
+  height: 800px;
+  background-color: green;
+  border: 2px solid black;
   border-radius: 100%;
 `;
 
@@ -18,9 +18,9 @@ const Eye = styled.div`
   position: absolute;
   top: 80px;
   left: 80px;
-  width: 40px;
-  height: 40px;
-  background-color: black;
+  width: 100px;
+  height: 80px;
+  background-color: brown;
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
