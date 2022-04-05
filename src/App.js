@@ -17,7 +17,7 @@ const Head = styled.div`
 const Eye = styled.div` 
   position: absolute;
   top: 200px;
-  left: 200px;
+  left: 500px;
   width: 100px;
   height: 80px;
   background-color: brown;
