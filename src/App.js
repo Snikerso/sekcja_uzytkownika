@@ -37,11 +37,20 @@ height: 140px;
 background-color: pink;
 border-radius: 50%`
 
+const Nose = styled.div`
+  margin: 100px auto;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  border: 2px solid black;
+`
 function App() {
   return (
     <div>
       <Head>
         <Eye red={false} />
+        <Nose/>
         <Body>
 
         </Body>
