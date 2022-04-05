@@ -16,15 +16,15 @@ const Head = styled.div`
 const Eye = styled.div`
   position: absolute;
   top: 80px;
-  left: 80px;
+  left: 160px;
   width: 40px;
   height: 40px;
-  background-color: pink;
+  background-color: greenyellow;
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
     css`
-      background-color: red;
+      background-color: greenyellown;
     `}
 `;
 
