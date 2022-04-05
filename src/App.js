@@ -16,14 +16,6 @@ const Head = styled.div`
 
 const Eye = styled.div` 
   position: absolute;
-<<<<<<< HEAD
-  top: 80px;
-  left: 80px;
-  width: 40px;
-  height: 40px;
-  background-color: black;
-=======
->>>>>>> 8874c3b661316b282f70ef54e8a790f60faf073e
   top: 200px;
   left: 200px;
   width: 100px;
