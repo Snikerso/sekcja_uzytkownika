@@ -28,14 +28,15 @@ const Eye = styled.div`
       background-color: green;
     `}
 `;
+
 const Body = styled.div`
 position: absolute;
-top: 180px;
-left: 50%;
+margin: 200px auto;
 width: 140px;
 height: 140px;
 background-color: pink;
-border-radius: 50%`
+border-radius: 50%
+`;
 
 function App() {
   return (
