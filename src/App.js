@@ -34,7 +34,7 @@ position: absolute;
 margin: 200px auto;
 width: 140px;
 height: 140px;
-background-color: pink;
+background-color: yellow;
 border-radius: 50%
 `;
 
