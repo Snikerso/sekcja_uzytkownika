@@ -1,48 +1,40 @@
-import './App.css';
-import styled, {css} from "styled-components"
-import { useState } from 'react';
+import "./App.css";
+import styled, { css } from "styled-components";
+import { useState } from "react";
 
+// template string``
+// string: "" ''
+const Head = styled.div`
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  border: 2px solid black;
+  border-radius: 100%;
+`;
 
-const Square = styled.div`
-  width: 100px;
-  height: 100px;
-  border: 10px solid red;
+const Eye = styled.div`
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  width: 40px;
+  height: 40px;
   background-color: black;
-  
-  ${({cssIndex}) => cssIndex && css` 
-     width: 200px;
-  `}
-
-`
-
-const Button = styled.button`
-  width: 100px;
-  height: 100px;
-  background-color: yellow;
-
-
-`
-
-const useStateNasz = () => {
-  const [cssIndex, setCssIndex] = useState(1)
-
-  const handleChange = () =>{
-    setCssIndex(cssIndex + 1)
-  }
-
-  return [cssIndex, setCssIndex, handleChange]
-} 
+  border-radius: 500%;
+  ${({ red }) =>
+    red === true &&
+    css`
+      background-color: red;
+    `}
+`;
 
 function App() {
-  const [zmiennaZwracana, FunkcjaZwracana, handleChange ] = useStateNasz()
-
   return (
-    <div id='wrapper'>
-      <Square cssIndex={zmiennaZwracana}></Square>
-      <Square cssIndex={zmiennaZwracana} isBlack={true}>2</Square>
-      <Square cssIndex={zmiennaZwracana}>3</Square>
-
-      <Button onClick={() => handleChange() }>{zmiennaZwracana}</Button>
+    <div>
+      <Head>
+        <Eye red={false} />
+        <Eye red={true} />
+      </Head>
     </div>
   );
 }
