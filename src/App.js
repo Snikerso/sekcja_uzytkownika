@@ -16,19 +16,16 @@ const Head = styled.div`
 
 const Eye = styled.div` 
   position: absolute;
-<<<<<<< HEAD
   top: 80px;
   left: 80px;
   width: 40px;
   height: 40px;
   background-color: black;
-=======
   top: 200px;
   left: 200px;
   width: 100px;
   height: 80px;
   background-color: brown;
->>>>>>> fe041b93311d1efd2298cf28a3f2fafe1fe699f4
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
