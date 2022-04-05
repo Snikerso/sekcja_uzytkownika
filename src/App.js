@@ -9,7 +9,7 @@ const Head = styled.div`
   width: 300px;
   height: 300px;
   background-color: pink;
-  border: 2px solid black;
+  border: 10px solid black;
   border-radius: 100%;
 `;
 
