@@ -17,17 +17,10 @@ margin: 100px auto;
 const Eye = styled.div` 
   position: absolute;
   top: 80px;
-<<<<<<< HEAD
-  left: 160px;
-  width: 40px;
-  height: 40px;
-  background-color: black;
-=======
   left: 80px;
   width: 100px;
   height: 80px;
   background-color: brown;
->>>>>>> 88cad96febb1b6316a7e24bdcec8012d91e2ff46
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
