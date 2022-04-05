@@ -19,7 +19,7 @@ const Eye = styled.div`
   left: 80px;
   width: 40px;
   height: 40px;
-  background-color: black;
+  background-color: pink;
   border-radius: 500%;
   ${({ red }) =>
     red === true &&
