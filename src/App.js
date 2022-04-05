@@ -16,8 +16,8 @@ const Head = styled.div`
 
 const Eye = styled.div` 
   position: absolute;
-  top: 80px;
-  left: 80px;
+  top: 200px;
+  left: 500px;
   width: 100px;
   height: 80px;
   background-color: brown;
@@ -28,14 +28,15 @@ const Eye = styled.div`
       background-color: greenyellow;
     `}
 `;
+
 const Body = styled.div`
 position: absolute;
-top: 180px;
-left: 180px;
+margin: 200px auto;
 width: 140px;
 height: 140px;
-background-color: pink;
-border-radius: 50%`
+background-color: yellow;
+border-radius: 50%
+`;
 
 const Nose = styled.div`
   margin: 100px auto;
