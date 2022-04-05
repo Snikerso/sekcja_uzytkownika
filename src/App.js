@@ -16,11 +16,14 @@ const Head = styled.div`
 
 const Eye = styled.div` 
   position: absolute;
+<<<<<<< HEAD
   top: 80px;
   left: 80px;
   width: 40px;
   height: 40px;
   background-color: black;
+=======
+>>>>>>> 8874c3b661316b282f70ef54e8a790f60faf073e
   top: 200px;
   left: 200px;
   width: 100px;
@@ -38,6 +41,7 @@ position: absolute;
 top: 180px;
 left: 180px;
 width: 140px;
+height: 140px;
 background-color: pink;
 border-radius: 50%`
 
@@ -47,7 +51,7 @@ function App() {
       <Head>
         <Eye red={false} />
         <Body>
-          
+
         </Body>
         <Eye red={true} />
       </Head>
