@@ -16,8 +16,8 @@ margin: 100px auto;
 
 const Eye = styled.div` 
   position: absolute;
-  top: 80px;
-  left: 80px;
+  top: 200px;
+  left: 200px;
   width: 100px;
   height: 80px;
   background-color: brown;
@@ -25,7 +25,7 @@ const Eye = styled.div`
   ${({ red }) =>
     red === true &&
     css`
-      background-color: red;
+      background-color: green;
     `}
 `;
 
