@@ -9,8 +9,8 @@ margin: 100px auto;
   position: relative;
   width: 800px;
   height: 800px;
-  background-color: green;
-  border: 2px solid black;
+  background-color: red;
+  border: 30px solid black;
   border-radius: 100%;
 `;
 
