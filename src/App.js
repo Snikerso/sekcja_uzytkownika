@@ -33,6 +33,7 @@ position: absolute;
 top: 180px;
 left: 180px;
 width: 140px;
+height: 140px;
 background-color: pink;
 border-radius: 50%`
 
