@@ -31,7 +31,7 @@ const Eye = styled.div`
 const Body = styled.div`
 position: absolute;
 top: 180px;
-left: 180px;
+left: 50%;
 width: 140px;
 height: 140px;
 background-color: pink;
