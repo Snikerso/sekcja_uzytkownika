@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     // Użyj funkcji IntelliSense, aby uzyskać informacje o możliwych atrybutach.
     // Najedź kursorem, aby wyświetlić opisy istniejących atrybutów.
     // Aby uzyskać więcej informacji, odwiedź stronę: https://go.microsoft.com/fwlink/?linkid=830387
+=======
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+>>>>>>> f767e9b35c56f98ff7d899d88acf2b2e6e3b52b0
     "version": "0.2.0",
     "configurations": [
         {
