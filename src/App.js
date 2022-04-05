@@ -9,7 +9,7 @@ margin: 100px auto;
   position: relative;
   width: 300px;
   height: 300px;
-  background-color: pink;
+  background-color: green;
   border: 2px solid black;
   border-radius: 100%;
 `;
